@@ -113,7 +113,7 @@ h2 {
 
 }
 
-.grid-item>img {
+.grid-item > img {
   width: 100%;
   height: 600px;
 }
@@ -322,6 +322,7 @@ iframe {
   width: 100%;
   height: 300px;
 }
+
 .footer-item3 p {
   text-align: left;
   font-size: 70%;
@@ -381,147 +382,22 @@ iframe {
   color: #fff;
 }
 
-
-/* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
-
-  #menu {
-    clear: left;
-    float: left;
-    margin-bottom: 20px;
-    margin-left: 30px;
-    line-height: 25px;
-    letter-spacing: 0px;
-  }
-  
-
-  #cover-text {
-    left: 0;
-  }
-
-  #why-lyhnidas {
-  font-size: 200%;
-}
-
-.grid-container {
-  grid-template-columns: 100%;
-
-}
-
-.content-up{
-  margin-top: -50%;
-
-}
-.content-down {
-  padding-top: 30%;
-  margin-bottom: -10%;
-}
-.item-text {
-  padding: 15% 15% 5% 15%;
-}
-
-.grid-item>img {
-  height: 300px;
-}
-
-.grid-item h2 {
-  padding: 0 10% 0;
-  font-size: 1.5em;
-}
-
-.grid-item p {
-  font-size: 1em;
-  font-weight: 200;
-  padding: 0 10% 5%;
-}
-
-#testimonials {
-  font-size: 200%;
-}
-.footer-container{
-  padding: 0;
-}
-.footer-container >.grid-item {
-  padding: 0 35px;
-  font-size: 20px;
-}
-}
-
-@media screen and (min-width: 950px) and (max-width: 1400px) {
-  #cover-text {
-    left: 300px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .content-up{
-    margin-top: -100%;  
-  }
-
-  #slider {
-    width: 100%;
-  }
-
-  .slider-container h3 {
-    text-align: left;
-  }
-  
-  
-  .slider-container p {
-    margin: 0 auto;
-    padding: 0 50% 0 0;
-    line-height: 100%;
-    text-align: left;
-  }
-  
-  .text-quote {
-    font-size: 100%;
-    float: left;
-  }
-  iframe {
-    padding: 0;
-    width: 100%;
-    height: 200px;
-  }
-
-  .footer-container >.grid-item {
-    padding: 0;
-    padding-left: 10px;
-    font-size: 12px;
-  }
-  
-}
-
-
-
 /* Courses */
-
-#courses-list {
-  font-size: 120%;
-  text-align: center;
+.program {
+  text-align: left;
+  font-size: 100%;
   color: #fff;
-  font-family: Playfair Display, sans-serif;
+  background-color: #2187a7;
+  font-family: Andika, sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
-  width: 50%;
-  height: 100px;
-  padding: 50px 0 0;
-  padding-left: 10px;
-  background-color: rgba(8, 131, 125, 0.7);
-  bottom: 200px;
-  left: 550px;
-  position: absolute;
-}
+  padding: 30px 30px 0;
 
-#program-choice {
-  width: 30%;
-  height: 30%;
-  text-align: center;
 }
 
 #course-title {
   text-align: center;
-  font-size: 120%;
+  font-size: 150%;
   color: #2187a7;
   font-family: Playfair Display, sans-serif;
   text-transform: uppercase;
@@ -531,11 +407,12 @@ iframe {
 
 .grid-container-courses {
   display: grid;
+  background-color: rgba(8, 85, 90, 0.7);
   grid-template-columns: 16% 16% 16% 16% 15% 15%;
   gap: 20px;
-  background-color: #2196F3;
   padding: 10px;
 }
+
 .course-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
@@ -543,21 +420,27 @@ iframe {
   font-size: 30px;
   text-align: center;
 }
-#english-program {
-  font-size: 120%;
+
+h4 {
+  font-size: 100%;
+  text-align: center;
   color: #2187a7;
-  background-color: aqua;
   font-family: Playfair Display, sans-serif;
-  text-transform: uppercase;
   letter-spacing: 4px;
-  padding: 30px;
+}
+
+.course-item li {
+  list-style-type: none;
+  color: #000;
+  font-family: Playfair Display, sans-serif;
+  font-size: 80%;
 }
 
 /* Form */
 
 .form-section {
   clear: right;
-  background: url('../images/hero-i.webp');
+  background: url('../images/signup-image.webp');
   background-size: cover;
   background-position: center;
   height: 900px;
@@ -565,26 +448,26 @@ iframe {
 
 .signup-form {
   margin: 150px 10% 0 0;
-  color: #fff;
-  background-color: rgba(60, 60, 60, 0.6);
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.7);
   max-width: 400px;
   position: absolute;
   right: 10%;
   padding: 30px;
 }
 
-.signup-form > h2 {
-  color: #fafafa;
+.signup-form>h2 {
+  color: #3a3a3a;
   margin-bottom: 20px;
 }
 
 .text-input {
   background: transparent;
-  color: #fafafa;
+  color: #3a3a3a;
   width: 100%;
   height: 25px;
-  margin:5px 0 20px 0;
-  border: 1px solid #fafafa;
+  margin: 5px 0 20px 0;
+  border: 1px solid #111010;
   border-radius: 2px;
 }
 
@@ -594,7 +477,7 @@ iframe {
 
 .type-radio {
   text-align: center;
-  color: #fff;
+  color: #000;
   padding: 25px 0 25px 25px;
 }
 
@@ -612,4 +495,130 @@ iframe {
 .join-button:hover {
   background-color: #fafafa;
   color: #2187a7;
+}
+
+/* For medium screen sizes from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+
+  #menu {
+    clear: left;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    line-height: 25px;
+    letter-spacing: 0px;
+  }
+
+
+  #cover-text {
+    left: 0;
+  }
+
+  #why-lyhnidas {
+    font-size: 200%;
+  }
+
+  .grid-container {
+    grid-template-columns: 100%;
+
+  }
+
+  .content-up {
+    margin-top: -50%;
+
+  }
+
+  .content-down {
+    padding-top: 30%;
+    margin-bottom: -10%;
+  }
+
+  .item-text {
+    padding: 15% 15% 5% 15%;
+  }
+
+  .grid-item>img {
+    height: 300px;
+  }
+
+  .grid-item h2 {
+    padding: 0 10% 0;
+    font-size: 1.5em;
+  }
+
+  .grid-item p {
+    font-size: 1em;
+    font-weight: 200;
+    padding: 0 10% 5%;
+  }
+
+  #testimonials {
+    font-size: 200%;
+  }
+
+  .footer-container {
+    padding: 0;
+  }
+
+  .footer-container>.grid-item {
+    padding: 0 35px;
+    font-size: 20px;
+  }
+
+  .grid-container-courses {
+    grid-template-columns: 100%;
+  }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1400px) {
+  #cover-text {
+    left: 300px;
+  }
+  .grid-container-courses {
+    grid-template-columns: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .content-up {
+    margin-top: -100%;
+  }
+
+  #slider {
+    width: 100%;
+  }
+
+  .slider-container h3 {
+    text-align: left;
+  }
+
+
+  .slider-container p {
+    margin: 0 auto;
+    padding: 0 50% 0 0;
+    line-height: 100%;
+    text-align: left;
+  }
+
+  .text-quote {
+    font-size: 100%;
+    float: left;
+  }
+
+  iframe {
+    padding: 0;
+    width: 100%;
+    height: 200px;
+  }
+
+  .footer-container>.grid-item {
+    padding: 0;
+    padding-left: 10px;
+    font-size: 12px;
+  }
+
+  .grid-container-courses {
+    grid-template-columns: 100%;
+  }
 }
