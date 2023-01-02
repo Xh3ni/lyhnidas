@@ -28,8 +28,6 @@ h2 {
   margin-left: 30px;
 }
 
-/* navigation links */
-
 #menu {
   font-size: 110%;
   letter-spacing: 4px;
@@ -61,8 +59,6 @@ h2 {
 .active {
   border-bottom: 1px solid #3a3a3a;
 }
-
-/* hero image and cover text */
 
 #hero-outer {
   height: 600px;
@@ -98,9 +94,6 @@ h2 {
   position: absolute;
 }
 
-
-/* about */
-
 #why-lyhnidas {
   text-align: center;
   margin: 20px 0;
@@ -133,15 +126,11 @@ h2 {
   color: inherit;
 }
 
-/* what people say */
-
 #testimonials {
   text-align: center;
   margin: 20px 0;
   font-size: 280%;
 }
-
-/**** slider ****/
 
 #slider,
 #slider-el {
@@ -179,8 +168,6 @@ h2 {
   color: #000;
 }
 
-/*** Content ***/
-
 .slider-container {
   margin: 0 auto;
   padding: 10%;
@@ -207,8 +194,6 @@ h2 {
   font-weight: bold;
   float: right;
 }
-
-/*** target hooks ****/
 
 @keyframes slide-animation {
   0% {
@@ -280,13 +265,11 @@ h2 {
   animation: slide-animation 25s infinite;
 }
 
-/* use to paused the content on mouse over */
 
 #slider ul:hover {
   animation-play-state: paused;
 }
 
-/* footer */
 
 .footer-container {
   display: grid;
@@ -383,6 +366,7 @@ iframe {
 }
 
 /* Courses */
+
 .program {
   text-align: left;
   font-size: 100%;
@@ -436,7 +420,7 @@ h4 {
   font-size: 80%;
 }
 
-/* Form */
+/* Sign Up */
 
 .form-section {
   clear: right;
@@ -496,8 +480,6 @@ h4 {
   background-color: #fafafa;
   color: #2187a7;
 }
-
-/* For medium screen sizes from 950px wide and down */
 
 @media screen and (max-width: 950px) {
 
