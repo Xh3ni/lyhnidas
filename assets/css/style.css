@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Playfair+Display&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,7 @@
 }
 
 body {
-  font-family: Lato, sans-serif;
+  font-family: Andika, sans-serif;
   font-weight: 300;
   color: #12566D;
 }
@@ -14,7 +16,7 @@ body {
 
 h1,
 h2 {
-  font-family: Oswald, sans-serif;
+  font-family: Playfair Display, sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
   color: #12566D;
@@ -84,7 +86,7 @@ h2 {
 
 #cover-text {
   font-size: 120%;
-  font-family: Oswald, sans-serif;
+  font-family: Playfair Display, sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
   width: 400px;
@@ -189,7 +191,7 @@ h2 {
 
 .slider-container h3 {
   color: #12566D;
-  font-family: Oswald, sans-serif;
+  font-family: Playfair Display, sans-serif;
   text-align: center;
 }
 
@@ -325,7 +327,7 @@ iframe {
 .footer-item3 p {
   text-align: left;
   font-size: 70%;
-  font-family: Oswald, sans-serif;
+  font-family: Playfair Display, sans-serif;
 }
 
 .footer-item4 {
@@ -336,7 +338,7 @@ iframe {
 .footer-item4 p {
   text-align: left;
   font-size: 70%;
-  font-family: Oswald, sans-serif;
+  font-family: Playfair Display, sans-serif;
 }
 
 .footer-item5 {
@@ -347,7 +349,7 @@ iframe {
 .footer-item5 p {
   text-align: left;
   font-size: 70%;
-  font-family: Oswald, sans-serif;
+  font-family: Playfair Display, sans-serif;
 }
 
 .footer-item6 {
@@ -358,7 +360,7 @@ iframe {
 .footer-item6 p {
   text-align: left;
   font-size: 70%;
-  font-family: Oswald, sans-serif;
+  font-family: Playfair Display, sans-serif;
 }
 
 .footer-item7 {
@@ -389,7 +391,7 @@ iframe {
   text-align: center;
   font-size: 150%;
   color: #12566D;
-  font-family: Oswald, sans-serif;
+  font-family: Playfair Display, sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
   padding: 30px;
@@ -400,7 +402,7 @@ iframe {
   font-size: 100%;
   color: #fff;
   background-color: #12566D;
-  font-family: Lato, sans-serif;
+  font-family: Andika, sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
   padding: 30px 30px 0;
@@ -428,14 +430,14 @@ h4 {
   font-size: 100%;
   text-align: center;
   color: #12566D;
-  font-family: Oswald, sans-serif;
+  font-family: Playfair Display, sans-serif;
   letter-spacing: 4px;
 }
 
 .course-item li {
   list-style-type: none;
   color: #000;
-  font-family: Oswald, sans-serif;
+  font-family: Playfair Display, sans-serif;
   font-size: 80%;
 }
 
